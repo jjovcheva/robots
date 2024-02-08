@@ -1,2 +1,2 @@
-# robots
-Analysis of robotics data for the College of Charleston. 
+# Analysis of Robot Behaviour
+Here I perform a straightforward analysis of stress, attention, mental workload, and robot predictability from robotics sessions at the College of Charleston in South Carolina. I explore the impact of robot number, speed, and orientation through single-variable correlations. I then analyse speed vs robot number and speed vs orientation with two-variable correlations. The Jupyter Notebook produces a file each for the single- and two-variable correlations, and correlation matrices for the desired comparisons (contained in the `plots` directory). 
