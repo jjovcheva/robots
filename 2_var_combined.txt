@@ -1,0 +1,55 @@
+Speed vs Robot Number - One Robot Slow (ab) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.103719             -0.129353        0.610369
+Attention            -0.103719   1.000000             -0.080314       -0.377752
+Robot Predictability -0.129353  -0.080314              1.000000       -0.387964
+Total Workload        0.610369  -0.377752             -0.387964        1.000000
+
+Speed vs Robot Number - Two Robots Slow (g) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.239596             -0.090249        0.167077
+Attention            -0.239596   1.000000             -0.149760       -0.102301
+Robot Predictability -0.090249  -0.149760              1.000000       -0.020105
+Total Workload        0.167077  -0.102301             -0.020105        1.000000
+
+Speed vs Robot Number - One Robot Fast (cd) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.304776             -0.185662        0.776789
+Attention            -0.304776   1.000000              0.372797       -0.459778
+Robot Predictability -0.185662   0.372797              1.000000       -0.259259
+Total Workload        0.776789  -0.459778             -0.259259        1.000000
+
+Speed vs Robot Number - Two Robots Fast (h) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.171904             -0.502320        0.846799
+Attention            -0.171904   1.000000             -0.056177        0.067245
+Robot Predictability -0.502320  -0.056177              1.000000       -0.414437
+Total Workload        0.846799   0.067245             -0.414437        1.000000
+
+Speed vs Orientation - Right Robot Slow (ae) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.138609             -0.444831        0.735085
+Attention            -0.138609   1.000000              0.125594       -0.132382
+Robot Predictability -0.444831   0.125594              1.000000       -0.531478
+Total Workload        0.735085  -0.132382             -0.531478        1.000000
+
+Speed vs Orientation - Left Robot Slow (bf) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.182352             -0.569392        0.722248
+Attention            -0.182352   1.000000              0.168538       -0.037722
+Robot Predictability -0.569392   0.168538              1.000000       -0.459338
+Total Workload        0.722248  -0.037722             -0.459338        1.000000
+
+Speed vs Orientation - Right Robot Fast (cf) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.314960             -0.468146        0.732524
+Attention            -0.314960   1.000000              0.276657       -0.176978
+Robot Predictability -0.468146   0.276657              1.000000       -0.388580
+Total Workload        0.732524  -0.176978             -0.388580        1.000000
+
+Speed vs Orientation - Left Robot Fast (de) Sessions:
+                        Stress  Attention  Robot Predictability  Total Workload
+Stress                1.000000  -0.345200             -0.480130        0.747714
+Attention            -0.345200   1.000000              0.544173       -0.327653
+Robot Predictability -0.480130   0.544173              1.000000       -0.462429
+Total Workload        0.747714  -0.327653             -0.462429        1.000000
