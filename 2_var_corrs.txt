@@ -1,0 +1,144 @@
+Two-variable Correlations for Stress v Attention:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.151, p-value = 0.502
+    Two Robots Slow: Correlation = -0.663, p-value = 0.052
+    One Robot Fast: Correlation = -0.275, p-value = 0.156
+    Two Robots Fast: Correlation = -0.432, p-value = 0.246
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.068, p-value = 0.787
+    Left Robot Slow: Correlation = -0.112, p-value = 0.577
+    Right Robot Fast: Correlation = -0.260, p-value = 0.181
+    Left Robot Fast: Correlation = -0.369, p-value = 0.083
+
+Two-variable Correlations for Stress v Total Workload:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = 0.389, p-value = 0.073
+    Two Robots Slow: Correlation = -0.017, p-value = 0.964
+    One Robot Fast: Correlation = 0.830, p-value = 0.000
+    Two Robots Fast: Correlation = 0.892, p-value = 0.001
+  Speed V Orientation:
+    Right Robot Slow: Correlation = 0.834, p-value = 0.000
+    Left Robot Slow: Correlation = 0.804, p-value = 0.000
+    Right Robot Fast: Correlation = 0.808, p-value = 0.000
+    Left Robot Fast: Correlation = 0.817, p-value = 0.000
+
+Two-variable Correlations for Stress v Robot Predictability:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.170, p-value = 0.451
+    Two Robots Slow: Correlation = 0.286, p-value = 0.456
+    One Robot Fast: Correlation = -0.219, p-value = 0.262
+    Two Robots Fast: Correlation = -0.015, p-value = 0.969
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.520, p-value = 0.027
+    Left Robot Slow: Correlation = -0.694, p-value = 0.000
+    Right Robot Fast: Correlation = -0.552, p-value = 0.002
+    Left Robot Fast: Correlation = -0.448, p-value = 0.032
+
+Two-variable Correlations for Attention v Stress:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.151, p-value = 0.502
+    Two Robots Slow: Correlation = -0.663, p-value = 0.052
+    One Robot Fast: Correlation = -0.275, p-value = 0.156
+    Two Robots Fast: Correlation = -0.432, p-value = 0.246
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.068, p-value = 0.787
+    Left Robot Slow: Correlation = -0.112, p-value = 0.577
+    Right Robot Fast: Correlation = -0.260, p-value = 0.181
+    Left Robot Fast: Correlation = -0.369, p-value = 0.083
+
+Two-variable Correlations for Attention v Total Workload:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.521, p-value = 0.013
+    Two Robots Slow: Correlation = -0.215, p-value = 0.578
+    One Robot Fast: Correlation = -0.455, p-value = 0.015
+    Two Robots Fast: Correlation = -0.520, p-value = 0.151
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.100, p-value = 0.693
+    Left Robot Slow: Correlation = -0.010, p-value = 0.961
+    Right Robot Fast: Correlation = -0.186, p-value = 0.344
+    Left Robot Fast: Correlation = -0.374, p-value = 0.079
+
+Two-variable Correlations for Attention v Robot Predictability:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.127, p-value = 0.575
+    Two Robots Slow: Correlation = -0.375, p-value = 0.320
+    One Robot Fast: Correlation = 0.414, p-value = 0.028
+    Two Robots Fast: Correlation = 0.081, p-value = 0.837
+  Speed V Orientation:
+    Right Robot Slow: Correlation = 0.064, p-value = 0.800
+    Left Robot Slow: Correlation = 0.244, p-value = 0.220
+    Right Robot Fast: Correlation = 0.409, p-value = 0.031
+    Left Robot Fast: Correlation = 0.624, p-value = 0.001
+
+Two-variable Correlations for Total Workload v Stress:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = 0.389, p-value = 0.073
+    Two Robots Slow: Correlation = -0.017, p-value = 0.964
+    One Robot Fast: Correlation = 0.830, p-value = 0.000
+    Two Robots Fast: Correlation = 0.892, p-value = 0.001
+  Speed V Orientation:
+    Right Robot Slow: Correlation = 0.834, p-value = 0.000
+    Left Robot Slow: Correlation = 0.804, p-value = 0.000
+    Right Robot Fast: Correlation = 0.808, p-value = 0.000
+    Left Robot Fast: Correlation = 0.817, p-value = 0.000
+
+Two-variable Correlations for Total Workload v Attention:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.521, p-value = 0.013
+    Two Robots Slow: Correlation = -0.215, p-value = 0.578
+    One Robot Fast: Correlation = -0.455, p-value = 0.015
+    Two Robots Fast: Correlation = -0.520, p-value = 0.151
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.100, p-value = 0.693
+    Left Robot Slow: Correlation = -0.010, p-value = 0.961
+    Right Robot Fast: Correlation = -0.186, p-value = 0.344
+    Left Robot Fast: Correlation = -0.374, p-value = 0.079
+
+Two-variable Correlations for Total Workload v Robot Predictability:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.253, p-value = 0.255
+    Two Robots Slow: Correlation = 0.201, p-value = 0.604
+    One Robot Fast: Correlation = -0.268, p-value = 0.168
+    Two Robots Fast: Correlation = 0.259, p-value = 0.501
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.504, p-value = 0.033
+    Left Robot Slow: Correlation = -0.448, p-value = 0.019
+    Right Robot Fast: Correlation = -0.379, p-value = 0.047
+    Left Robot Fast: Correlation = -0.447, p-value = 0.032
+
+Two-variable Correlations for Robot Predictability v Stress:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.170, p-value = 0.451
+    Two Robots Slow: Correlation = 0.286, p-value = 0.456
+    One Robot Fast: Correlation = -0.219, p-value = 0.262
+    Two Robots Fast: Correlation = -0.015, p-value = 0.969
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.520, p-value = 0.027
+    Left Robot Slow: Correlation = -0.694, p-value = 0.000
+    Right Robot Fast: Correlation = -0.552, p-value = 0.002
+    Left Robot Fast: Correlation = -0.448, p-value = 0.032
+
+Two-variable Correlations for Robot Predictability v Attention:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.127, p-value = 0.575
+    Two Robots Slow: Correlation = -0.375, p-value = 0.320
+    One Robot Fast: Correlation = 0.414, p-value = 0.028
+    Two Robots Fast: Correlation = 0.081, p-value = 0.837
+  Speed V Orientation:
+    Right Robot Slow: Correlation = 0.064, p-value = 0.800
+    Left Robot Slow: Correlation = 0.244, p-value = 0.220
+    Right Robot Fast: Correlation = 0.409, p-value = 0.031
+    Left Robot Fast: Correlation = 0.624, p-value = 0.001
+
+Two-variable Correlations for Robot Predictability v Total Workload:
+  Speed V Robot Number:
+    One Robot Slow: Correlation = -0.253, p-value = 0.255
+    Two Robots Slow: Correlation = 0.201, p-value = 0.604
+    One Robot Fast: Correlation = -0.268, p-value = 0.168
+    Two Robots Fast: Correlation = 0.259, p-value = 0.501
+  Speed V Orientation:
+    Right Robot Slow: Correlation = -0.504, p-value = 0.033
+    Left Robot Slow: Correlation = -0.448, p-value = 0.019
+    Right Robot Fast: Correlation = -0.379, p-value = 0.047
+    Left Robot Fast: Correlation = -0.447, p-value = 0.032
+
