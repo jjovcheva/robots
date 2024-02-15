@@ -1,0 +1,44 @@
+Stress:
+  Robot Number:
+    Kruskal-Wallis statistic: 8.594847800505518
+    p-value: 0.0033711538659146486
+  Speed:
+    Kruskal-Wallis statistic: 13.941717921307795
+    p-value: 0.0009388461275066871
+  Orientation:
+    Kruskal-Wallis statistic: 0.317768479776857
+    p-value: 0.5729518030749954
+
+Attention:
+  Robot Number:
+    Kruskal-Wallis statistic: 3.6143444814512296
+    p-value: 0.05728329241794926
+  Speed:
+    Kruskal-Wallis statistic: 9.084277134509351
+    p-value: 0.010650605145633988
+  Orientation:
+    Kruskal-Wallis statistic: 0.1353233708109681
+    p-value: 0.712975203832718
+
+Robot Predictability:
+  Robot Number:
+    Kruskal-Wallis statistic: 9.350244330598954
+    p-value: 0.0022295574376027614
+  Speed:
+    Kruskal-Wallis statistic: 15.131820634789301
+    p-value: 0.0005178057855423033
+  Orientation:
+    Kruskal-Wallis statistic: 0.33813058773782334
+    p-value: 0.5609102747326398
+
+Total Workload:
+  Robot Number:
+    Kruskal-Wallis statistic: 19.036387606136458
+    p-value: 1.2824936165851956e-05
+  Speed:
+    Kruskal-Wallis statistic: 22.51133324308573
+    p-value: 1.2933798663123964e-05
+  Orientation:
+    Kruskal-Wallis statistic: 0.3175088408569747
+    p-value: 0.5731086004668231
+

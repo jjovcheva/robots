@@ -1,0 +1,56 @@
+Speed v Robot Number - Fast:
+  Stress:
+    Levene statistic: 2.1967621419676218
+    p-value: 0.145765747689017
+  Attention:
+    Levene statistic: 6.16726807123734
+    p-value: 0.017089949564186135
+  Robot Predictability:
+    Levene statistic: 0.5396881896490355
+    p-value: 0.46664407171248967
+  Total Workload:
+    Levene statistic: 10.203617028479751
+    p-value: 0.002658557807949001
+
+Speed v Robot Number - Slow:
+  Stress:
+    Levene statistic: 1.7967745705270541
+    p-value: 0.18748368629529766
+  Attention:
+    Levene statistic: 0.91052291801162
+    p-value: 0.3455680530463696
+  Robot Predictability:
+    Levene statistic: 0.07770363643542473
+    p-value: 0.7818350282609694
+  Total Workload:
+    Levene statistic: 3.023440067134429
+    p-value: 0.08957405741256864
+
+Speed v Orientation - Fast:
+  Stress:
+    Levene statistic: 0.28345306674503334
+    p-value: 0.5965162223639284
+  Attention:
+    Levene statistic: 1.4172823774909433
+    p-value: 0.23878573705334313
+  Robot Predictability:
+    Levene statistic: 0.02756034133528488
+    p-value: 0.8687341191260878
+  Total Workload:
+    Levene statistic: 0.003834390690040534
+    p-value: 0.9508412074520678
+
+Speed v Orientation - Slow:
+  Stress:
+    Levene statistic: 0.0
+    p-value: 1.0
+  Attention:
+    Levene statistic: 1.4356435643564367
+    p-value: 0.23571887669703748
+  Robot Predictability:
+    Levene statistic: 0.0
+    p-value: 1.0
+  Total Workload:
+    Levene statistic: 0.03145518178925751
+    p-value: 0.8598466290849555
+

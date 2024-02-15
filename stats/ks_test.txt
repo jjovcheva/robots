@@ -1,0 +1,24 @@
+Stress
+  Kolmogorov-Smirnov statistic: 0.8413447460685429
+  p-value: 1.4119751504300005e-93
+
+ Stress not normally distributed.
+
+Attention
+  Kolmogorov-Smirnov statistic: 0.9772498680518208
+  p-value: 1.1698996718987447e-192
+
+ Attention not normally distributed.
+
+Robot Predictability
+  Kolmogorov-Smirnov statistic: 0.9687028595048123
+  p-value: 1.883975077204438e-176
+
+ Robot Predictability not normally distributed.
+
+Total Workload
+  Kolmogorov-Smirnov statistic: 0.9999683287581669
+  p-value: 0.0
+
+ Total Workload not normally distributed.
+

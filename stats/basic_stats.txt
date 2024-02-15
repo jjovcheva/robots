@@ -1,0 +1,20 @@
+Stress
+  Mean: 1.6495726495726495
+  Variance: 0.8259186207904156
+  Standard Deviation: 0.908800649642382
+
+Attention
+  Mean: 3.9145299145299144
+  Variance: 1.0696179414128133
+  Standard Deviation: 1.0342233518021209
+
+Robot Predictability
+  Mean: 4.316239316239316
+  Variance: 0.8145226093944045
+  Standard Deviation: 0.9025090633308922
+
+Total Workload
+  Mean: 17.316239316239315
+  Variance: 217.49828329315505
+  Standard Deviation: 14.747823001824882
+

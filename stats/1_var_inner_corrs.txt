@@ -1,0 +1,39 @@
+Correlations - Grouped by Robots:
+                                   Stress  Attention  Robot Predictability  Total Workload
+Robots                                                                                    
+One Robot  Stress                1.000000  -0.137306             -0.167123        0.740995
+           Attention            -0.137306   1.000000              0.105472       -0.318627
+           Robot Predictability -0.167123   0.105472              1.000000       -0.297261
+           Total Workload        0.740995  -0.318627             -0.297261        1.000000
+Two Robots Stress                1.000000  -0.198692             -0.569968        0.780829
+           Attention            -0.198692   1.000000              0.304116       -0.024731
+           Robot Predictability -0.569968   0.304116              1.000000       -0.385416
+           Total Workload        0.780829  -0.024731             -0.385416        1.000000
+
+Correlations - Grouped by Speed:
+                              Stress  Attention  Robot Predictability  Total Workload
+Speed                                                                                
+Fast  Stress                1.000000  -0.167099             -0.393444        0.843670
+      Attention            -0.167099   1.000000              0.198981       -0.063146
+      Robot Predictability -0.393444   0.198981              1.000000       -0.368249
+      Total Workload        0.843670  -0.063146             -0.368249        1.000000
+Mixed Stress                1.000000  -0.380443             -0.618397        0.749744
+      Attention            -0.380443   1.000000              0.684407       -0.256667
+      Robot Predictability -0.618397   0.684407              1.000000       -0.389606
+      Total Workload        0.749744  -0.256667             -0.389606        1.000000
+Slow  Stress                1.000000  -0.249610              0.022111        0.163897
+      Attention            -0.249610   1.000000             -0.059456       -0.301289
+      Robot Predictability  0.022111  -0.059456              1.000000       -0.142077
+      Total Workload        0.163897  -0.301289             -0.142077        1.000000
+
+Correlations - Grouped by Orientation:
+                                    Stress  Attention  Robot Predictability  Total Workload
+Orientation                                                                                
+Left Focus  Stress                1.000000  -0.117722             -0.517465        0.789999
+            Attention            -0.117722   1.000000              0.157825       -0.004445
+            Robot Predictability -0.517465   0.157825              1.000000       -0.442834
+            Total Workload        0.789999  -0.004445             -0.442834        1.000000
+Right Focus Stress                1.000000  -0.097692             -0.420428        0.774188
+            Attention            -0.097692   1.000000              0.141072       -0.113067
+            Robot Predictability -0.420428   0.141072              1.000000       -0.396378
+            Total Workload        0.774188  -0.113067             -0.396378        1.000000
