@@ -1,0 +1,87 @@
+Robots:
+  Stress:
+    One Robot vs Two Robots:
+      Mann-Whitney U statistic: 1234.0
+      p-value: 0.003404659698834347
+
+  Attention:
+    One Robot vs Two Robots:
+      Mann-Whitney U statistic: 1378.0
+      p-value: 0.05765810491244003
+
+  Robot Predictability:
+    One Robot vs Two Robots:
+      Mann-Whitney U statistic: 2216.5
+      p-value: 0.00225216375390041
+
+  Total Workload:
+    One Robot vs Two Robots:
+      Mann-Whitney U statistic: 912.0
+      p-value: 1.2986017542227271e-05
+
+Speed:
+  Stress:
+    Fast vs Slow:
+      Mann-Whitney U statistic: 1244.0
+      p-value: 0.0030899976523014643
+    Fast vs Mixed:
+      Mann-Whitney U statistic: 585.5
+      p-value: 0.3825042524182485
+    Slow vs Mixed:
+      Mann-Whitney U statistic: 374.5
+      p-value: 0.00042345455895427076
+
+  Attention:
+    Fast vs Slow:
+      Mann-Whitney U statistic: 1270.5
+      p-value: 0.004095815100935215
+    Fast vs Mixed:
+      Mann-Whitney U statistic: 702.5
+      p-value: 0.6210768790214267
+    Slow vs Mixed:
+      Mann-Whitney U statistic: 467.5
+      p-value: 0.03947059562361122
+
+  Robot Predictability:
+    Fast vs Slow:
+      Mann-Whitney U statistic: 699.0
+      p-value: 0.014965579773500859
+    Fast vs Mixed:
+      Mann-Whitney U statistic: 813.0
+      p-value: 0.0734226463354254
+    Slow vs Mixed:
+      Mann-Whitney U statistic: 947.5
+      p-value: 0.00014211399732336254
+
+  Total Workload:
+    Fast vs Slow:
+      Mann-Whitney U statistic: 1386.0
+      p-value: 0.00018321013469347401
+    Fast vs Mixed:
+      Mann-Whitney U statistic: 570.5
+      p-value: 0.3266866387988505
+    Slow vs Mixed:
+      Mann-Whitney U statistic: 264.5
+      p-value: 1.9438090796746714e-05
+
+Orientation:
+  Stress:
+    Right Focus vs Left Focus:
+      Mann-Whitney U statistic: 1475.0
+      p-value: 0.36139148780872477
+
+  Attention:
+    Right Focus vs Left Focus:
+      Mann-Whitney U statistic: 1458.0
+      p-value: 0.34334922762499165
+
+  Robot Predictability:
+    Right Focus vs Left Focus:
+      Mann-Whitney U statistic: 1729.5
+      p-value: 0.49801454241614507
+
+  Total Workload:
+    Right Focus vs Left Focus:
+      Mann-Whitney U statistic: 1368.5
+      p-value: 0.15895441435598834
+
