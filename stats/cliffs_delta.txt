@@ -1,0 +1,21 @@
+Robots:
+  Stress:
+    One Robot vs Two Robots: Cliff's Delta: -0.2787843366452367
+  Robot Predictability:
+    One Robot vs Two Robots: Cliff's Delta: 0.29544126241963764
+  Total Workload:
+    One Robot vs Two Robots: Cliff's Delta: -0.46697837521917007
+
+Speed:
+  Stress:
+    Fast vs Slow: Cliff's Delta: 0.3150105708245243
+    Slow vs Mixed: Cliff's Delta: -0.4193798449612403
+  Attention:
+    Fast vs Slow: Cliff's Delta: 0.3430232558139535
+  Robot Predictability:
+    Fast vs Slow: Cliff's Delta: -0.26109936575052856
+    Slow vs Mixed: Cliff's Delta: 0.4689922480620155
+  Total Workload:
+    Fast vs Slow: Cliff's Delta: 0.46511627906976744
+    Slow vs Mixed: Cliff's Delta: -0.5899224806201551
+
