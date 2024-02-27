@@ -720,7 +720,7 @@ def calc_mw_one_var(data, categories):
     # Set up dictionary for results.
     res = {}
 
-    # Perform tests for each category
+    # Perform tests for each category.
     for category, groups in categories.items():
         category_res = mw_one_var(data, category, groups)
         res[category] = category_res
