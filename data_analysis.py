@@ -1098,7 +1098,7 @@ def calc_cliff_delta(data, categories):
                         res[category][var] = []
                     res[category][var].append((group1, group2, delta))
                     
-    file_path = 'cliffs_delta.txt'
+    file_path = './stats/cliffs_delta.txt'
     with open(file_path, 'w+') as file:
         for category, variables in res.items():
             file.write(f"{category}:\n")
