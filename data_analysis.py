@@ -973,7 +973,7 @@ def one_var_heatmaps(robots, speed, orientation):
     fig.colorbar(sm, cax=cbar_ax)
 
     plt.tight_layout()
-    plt.savefig('./plots/correlations/sone_v_two_robots', dpi=500)
+    plt.savefig('./plots/correlations/one_v_two_robots', dpi=500)
     
     # Heatmap for fast sessions (cdh) vs slow sessions (abg) vs 1 fast 1 slow
     corr_fast = speed.loc['Fast']
