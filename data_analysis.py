@@ -1080,14 +1080,14 @@ def calc_cliff_delta(data, categories):
     '''
     res = {}
 
-    # Iterate over each category and its groups
+    # Iterate over each category and its groups.
     for category, groups in categories.items():
         category_res = mw_one_var(data, category, groups)
         for var in numeric_cols:
             for result in category_res[var]:
                 group1, group2, _, p_value, significant = result
                 
-                # Check for significance and calculate Cliff's Delta
+                # Check for significance and calculate Cliff's Delta.
                 if significant:
                     data1 = data[data[category] == group1][var]
                     data2 = data[data[category] == group2][var]
