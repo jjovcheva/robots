@@ -13,7 +13,7 @@ The normality of the data for each variable is assessed using the Kolmogorov-Smi
 
 Next, the two-sample KS test is used to compare the distributions for each of the conditions. Here, the KS statistic quantifies the distance between cumulative distribution functions (CDFs) of pairs of distributions. Again, the CDF represents the probability that a random variable takes on a value $\le x$. The KS statistic is then $$D_n=\text{max}|F_1(x)-F_2(x)|,$$ where $F_1, F_2$ are the CDFs of the distributions being compared. In this case, the null hypothesis posits that the two samples are drawn from the same distribution, while the alternative hypothesis suggests the distributions are significantly different. 
 
-Levene's test is used to test the equality of variances for the different conditions. For a variable $X$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by $$ W = \frac{(N-k) \sum_{i=1}^{k} N_i (\bar{Z}_i - \bar{Z})^2}{(k-1) \sum_{i=1}^{k} \sum_{j=1}^{N_i} (Z_{ij} - \bar{Z}_i)^2}, $$ where $Z_{ij}=|X_{ij}-\bar{X_{i.}}|$. 
+Levene's test is used to test the equality of variances for the different conditions. For a variable $Y$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by $$ W = \frac{N-k}{k-1}\frac{\sum_{i=1}^k N_i(Z_{i.} - Z_{..})^2}{\sum_{i=1}^k \sum_{j=1}^{N_i} N_i(Z_{ij} - Z_{i.})^2}, $$ where $Z_{ij}=|Y_{ij}-\bar{Y_i}|$. 
 
 
 
