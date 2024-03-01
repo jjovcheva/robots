@@ -1,5 +1,6 @@
 # Analysing Robot Performance in Python
 This analysis is performed on data from robotics sessions at the College of Charleston in South Carolina. The variables of interest are stress, attention, mental workload, and robot predictability. We are interested in the following relationships: 
+
 __Single-factor__
 - Robots: one robot sessions (abcd) vs two robot sessions (efgh)
 - Speed: fast sessions (cdh) vs slow sessions (abg) vs 1 fast 1 slow (ef)
