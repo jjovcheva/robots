@@ -15,7 +15,7 @@ Next, the two-sample KS test is used to compare the distributions for each of th
 
 Levene's test is used to test the equality of variances for the different conditions. For a variable $Y$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by $$W=\frac{(N-k)}{(k-1)} \cdot \frac{\sum_{i=1} N_i\left(Z_{i .}-Z_{. .}\right)^2}{\sum_{i=1} \sum_{j=1}\left(Z_{i j}-Z_{i .}\right)^2}$$ where $Z_{ij}=|Y_{ij}-\bar{Y_{i.}}|$. 
 
-The distributions were then analysed using the Kruskal-Wallis test. The test is non-parametric and suitable for skewed distributions. However, the distributions to be compared are assumed to have a similar shape. The distributions were plotted to check that the data met this criterion. The null hypothesis is that the medians are equal, while the alternative hypothesis is that the medians differ between groups. The test statistic is given by $$H=(N-1) \frac{\sum_{i=1}^g n_i\left(\bar{r}_{i.}}-\bar{r}\right)^2}{\sum_{i=1}^g \sum_{j=1}^{n_i}\left(r_{i j}-\bar{r}\right)^2}. $$
+The distributions were then analysed using the Kruskal-Wallis test. The test is non-parametric and suitable for skewed distributions. However, the distributions to be compared are assumed to have a similar shape. The distributions were plotted to check that the data met this criterion. The null hypothesis is that the medians are equal, while the alternative hypothesis is that the medians differ between groups. The test statistic is given by $$H=(N-1) \frac{\sum_{i=1} n_i\left(\bar{r}_{i\cdot}}-\bar{r}\right)^2}{\sum_{i=1} \sum_{j=1}\left(r_{i j}-\bar{r}\right)^2}.$$
 
 Those with non-equal variance were analysed using the Mann-Whitney U test. 
 
