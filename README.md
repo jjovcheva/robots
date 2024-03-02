@@ -7,7 +7,7 @@ __Single-factor__
 - Orientation: right focus (acf) vs left focus (bde)
 
 __Two-factor__
-- Speed v Robot Number: one robot slow (ab) vs two robots slow (g) and one robot fast (cd) vs two robots fast (h)
+- Speed v Robots: one robot slow (ab) vs two robots slow (g) and one robot fast (cd) vs two robots fast (h)
 - Speed v Orientation: right robot slow (ae) vs left robot slow (bf) and right robot fast (cf) vs left robot fast (de)
 
 ### Assessing Normality
