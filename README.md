@@ -12,11 +12,12 @@ __Two-factor__
 
 The normality of the data for each variable was assessed using the Kolmogorov-Smirnov (KS) test. Suppose that a population is believed to have some cumulative frequency distribution function $F(x)$, i.e. for any value $x$, $F$ is the proportion of individuals with measurements $\le x$. The cumulative step-function of a random sample of $N$ observations, $S_N(x)$, is expected to resemble $F(x)$. If $S_N(x)$ deviates significantly from $F(x)$, there is reason to believe the hypothetical distribution is not the correct one. In this case, then, the null hypothesis is that the data come from a normal distribution.
 
-Next, the two-sample KS test was used to compare the distributions for each of the conditions. Here, the KS statistic quantifies the distance between cumulative distribution functions (CDFs) of pairs of distributions. Again, the CDF represents the probability that a random variable takes on a value $\le x$. The KS statistic is then $$D_n=\text{max}|F_1(x)-F_2(x)|$$ where $F_1, F_2$ are the CDFs of the distributions being compared. In this case, the null hypothesis posits that the two samples are drawn from the same distribution, while the alternative hypothesis suggests the distributions are significantly different.
+Next, the two-sample KS test was used to compare the distributions for each of the conditions. Here, the KS statistic quantifies the distance between cumulative distribution functions (CDFs) of pairs of distributions. Again, the CDF represents the probability that a random variable takes on a value $\le x$. The KS statistic is then $$D_n=\mathrm{max}|F_1(x)-F_2(x)|$$ where $F_1, F_2$ are the CDFs of the distributions being compared. In this case, the null hypothesis posits that the two samples are drawn from the same distribution, while the alternative hypothesis suggests the distributions are significantly different.
 
-Levene's test was used to test the equality of variances for the different samples. For a variable $Y$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by \begin{equation}
+Levene's test was used to test the equality of variances for the different samples. For a variable $Y$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by
+```math
     W=\frac{(N-k)}{(k-1)} \frac{\sum_{i=1}^k N_i\left(Z_{i .}-Z_{. .}\right)^2}{\sum_{i=1}^k \sum_{j=1}^{N_i}\left(Z_{i j}-Z_{i .}\right)^2},
-\end{equation}
+```
 where $Z_{ij}=|Y_{ij}-\bar{Y_{i.}}|$. \\\
 
 The distributions are then analysed using the Kruskal-Wallis test. The test is non-parametric and suitable for skewed distributions. However, the distributions to be compared are assumed to have a similar shape. The distributions are plotted to check that the data meet this criterion. The null hypothesis is that the medians are equal. The test statistic is given by \begin{equation}
