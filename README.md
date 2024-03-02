@@ -16,18 +16,20 @@ Next, the two-sample KS test was used to compare the distributions for each of t
 
 Levene's test was used to test the equality of variances for the different samples. For a variable $Y$ of a sample with size $N$ divided into $k$ subgroups, the Levene test statistic is given by
 ```math
-    W=\frac{(N-k)}{(k-1)} \frac{\sum_{i=1}^k N_i\left(Z_{i .}-Z_{. .}\right)^2}{\sum_{i=1}^k \sum_{j=1}^{N_i}\left(Z_{i j}-Z_{i .}\right)^2},
+    W=\frac{(N-k)}{(k-1)} \frac{\sum_{i=1} N_i\left(Z_{i .}-Z_{. .}\right)^2}{\sum_{i=1} \sum_{j=1}\left(Z_{i j}-Z_{i .}\right)^2},
 ```
 where $Z_{ij}=|Y_{ij}-\bar{Y_{i.}}|$. \\\
 
-The distributions are then analysed using the Kruskal-Wallis test. The test is non-parametric and suitable for skewed distributions. However, the distributions to be compared are assumed to have a similar shape. The distributions are plotted to check that the data meet this criterion. The null hypothesis is that the medians are equal. The test statistic is given by \begin{equation}
+The distributions are then analysed using the Kruskal-Wallis test. The test is non-parametric and suitable for skewed distributions. However, the distributions to be compared are assumed to have a similar shape. The distributions are plotted to check that the data meet this criterion. The null hypothesis is that the medians are equal. The test statistic is given by
+```math
     H=(N-1) \frac{\sum_{i=1}^g n_i\left(\bar{r}_{i .}-\bar{r}\right)^2}{\sum_{i=1}^g \sum_{j=1}^{n_i}\left(r_{i j}-\bar{r}\right)^2},
-\end{equation}
+```
 where $N$ is the total number of observations, $g$ is the number of groups, $n_i$ is the number of observations in group $i$, $r_{ij}$ is the rank of observation $j$ in group $i$, $\bar{r}_{i .}=\frac{\sum_{j=1}^{n_i} r_{i j}}{n_i}$ is the average rank of all observations in group $i$, and $\bar{r}=\frac{1}{2}(N+1)$ is the average of all $r_{ij}$.
 
-Samples with non-equal variance are analysed using an additional ad-hoc Mann-Whitney U test, also known as Wilcoxon rank-sum test (not to be mistaken for the Wilcoxon signed-rank test) with a Bonferroni correction to handle the problem of multiple comparisons. Significant comparisons are followed up with a calculation of the Cliff's Delta statistic, \begin{equation}
+Samples with non-equal variance are analysed using an additional ad-hoc Mann-Whitney U test, also known as Wilcoxon rank-sum test (not to be mistaken for the Wilcoxon signed-rank test) with a Bonferroni correction to handle the problem of multiple comparisons. Significant comparisons are followed up with a calculation of the Cliff's Delta statistic, 
+```math
     d=\frac{\sum_{i, j}\left[x_i>x_j\right]-\left[x_i<x_j\right]}{m n},
-\end{equation}
+```
 where the two distributions being compared have sizes $m, n$ and contain items $x_i, x_j$ respectively. The Cliff's Delta is a non-parametric effect size measurement that quantifies the difference between two groups of observations and, usefully, it captures the direction of the difference in sign in the Mann-Whitney U statistic. 
 
 
