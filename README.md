@@ -3,7 +3,7 @@ This analysis is performed on data from robotics sessions at the College of Char
 
 __Single-factor__
 - Robots: one robot sessions (abcd) vs two robot sessions (efgh)
-- Speed: fast sessions (cdh) vs slow sessions (abg) vs 1 fast 1 slow (ef)
+- Speed: fast sessions (cdh) vs slow sessions (abg) vs 1 fast 1 slow (ef) 
 - Orientation: right focus (acf) vs left focus (bde)
 
 __Two-factor__
