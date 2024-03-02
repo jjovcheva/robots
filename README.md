@@ -14,7 +14,7 @@ The normality of the data for each variable was assessed using the Kolmogorov-Sm
 
 Next, the two-sample KS test was used to compare the distributions for each of the conditions. Here, the KS statistic quantifies the distance between cumulative distribution functions (CDFs) of pairs of distributions. Again, the CDF represents the probability that a random variable takes on a value $\le x$. The KS statistic is then 
 $$
-D_n=\text{max}|F_1(x)-F_2(x)|,
+D_n=\mathrm{max}|F_1(x)-F_2(x)|,
 $$ 
 where $F_1, F_2$ are the CDFs of the distributions being compared. In this case, the null hypothesis posits that the two samples are drawn from the same distribution, while the alternative hypothesis suggests the distributions are significantly different.
 
