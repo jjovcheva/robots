@@ -66,7 +66,7 @@ def load_data(file_path='data.xlsx'):
     # Create additional categorical variables.
     data['Robots'] = data['Session Type'].apply(lambda x: 'One Robot' if x[0] in 'abcd' else 'Two Robots')
     data['Speed'] = data['Session Type'].apply(lambda x: 'Fast' if x[0] in 'cdh' else ('Slow' if x[0] in 'abg' else 'Mixed'))
-    data['Orientation'] = data['Session Type'].apply(lambda x: 'Right Focus' if x[0] in 'acf' else 'Left Focus')
+    data['Orientation'] = data['Session Type'].apply(lambda x: 'Right Focus' if x[0] in 'acf' else ('Left Focus' if x[0] in 'bde' else None))
 
     # Define session groups for single-factor analysis.
     one_var_groups = {
